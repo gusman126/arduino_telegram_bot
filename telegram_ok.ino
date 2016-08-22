@@ -104,7 +104,7 @@ void busca_upd_id( String Rsp ) {
 // Orden para pedir el ultimo mensaje, vemos que se usa el Offset=-1&limit=1 para mostrar solo el ultimo
 void Ultimo_msg () {
   if (client.connect(server, 443)) { 
-   // client.println("GET /bot259047685:AAH7Y8DV3PZn6H52uhmrsvc_q3yOuyqqH6g/getUpdates?offset=-1&limit=1");
+   // client.println("GET /botxxxx/getUpdates?offset=-1&limit=1");
     client.println("GET /"+ BOTtoken + "/getUpdates?offset=-1&limit=1");
   }
   previous = millis(); // Guardamos los milisegundos para comprobar que haya pasado X tiempo entre lecturas
