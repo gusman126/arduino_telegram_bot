@@ -4,14 +4,14 @@
 
 
 // Initialize Wifi connection to the router
-const char *ssid = "Mtiempo";   // cannot be longer than 32 characters!
-const char *pass = "gusman126";   // your network key
+const char *ssid = "xxxxx";   // cannot be longer than 32 characters!
+const char *pass = "yyyyyyyyy";   // your network key
 int status = WL_IDLE_STATUS;
 
 // Datos del Bot de Telegram
 
-String BOTtoken = "bot259047685:AAH7Y8DV3PZn6H52uhmrsvc_q3yOuyqqH6g";
-String Chat_id = "203389584"; // Lo escribimos aqui el Chat_id, pero podriamos obtenerlo del ultimo Msg
+String BOTtoken = "botxxxxxxxx:yyyyyyyyyyyyyyyyyyyyyy";
+String Chat_id = "2xxxxxxx"; // Lo escribimos aqui el Chat_id, pero podriamos obtenerlo del ultimo Msg
 String Texto_enviar = "";
 String Texto_recibido = "";
 String Update_id = "";
